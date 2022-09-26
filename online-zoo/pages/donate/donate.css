@@ -1,0 +1,213 @@
+
+.panda {
+}
+.panda_container {
+    height: 386px;
+}
+
+.text_container {
+    height: 339px;
+    background:  linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+.text {
+    margin: 0px 220px 0px 220px;
+    height: 339px;
+    width: 1160px;
+    
+}
+.text_items {
+    /* display: flex;
+    flex-wrap: wrap; */
+   
+}
+.text-title {
+    display: flex;
+    align-items: flex-end;
+    height: 87px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+    
+    
+    color: #FFFFFF;
+    
+    
+}
+.text_main {
+    height: 94px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.Donation_info {
+    display: flex;
+    align-items: flex-end;
+height: 87px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+
+/* or3 */
+
+color: #FE9013;
+
+}
+
+
+.PickAndFeed_container {
+    height: 1144px; ;
+}
+.PickAndFeedd {
+    height: 964px;
+    background-color: rgba(253, 253, 255, 0.52);
+
+    width: 1160px;
+    margin-left: 220px;
+    margin-right: 222px;
+}
+
+.PickAndFeed_header {
+    width: 1160px;
+    height: 451px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.PickAndFeed_header-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 98px;
+    width: 100%;
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+text-align: center;
+
+/* or3 */
+
+color: #FE9013;
+}
+.PickAndFeed_header-text {
+    height: 49px;
+    width: 100%;
+    margin-left: 92px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+
+color: #333B41;
+}
+.PickAndFeed_header-photo {
+    display: flex;
+    justify-content: space-between;
+    height: 246px;
+    width: 494px;
+}
+.four {position: absolute;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #333B41;
+}
+.four img{
+    padding: 39px 30px 10px 30px ;
+
+}
+.multiply {
+    display: flex;
+    align-self: center;
+    position: relative;
+    margin-left: 150px;
+}
+
+.PickAndFeedd_main {
+ width: 100%; 
+ margin-left: 114px; 
+ margin-top: 48px;
+    
+}
+
+.PickAndFeed_main-Amount {
+    height: 32px;
+}
+.PickAndFeed_main-input {
+    height: 28px;
+}
+.PickAndFeed_main-money {
+    height: 36px;
+}
+
+.PickAndFeed_footer {
+    width: 301px;
+    height: 237.02px;
+    margin: auto ;
+    margin-top: 50px;
+}
+
+.PickAndFeed_footer-input {
+    height: 54px;
+    width: 268px;
+
+}
+.PickAndFeed_footer-clicks {
+    height: 77px;
+}
+.PickAndFeed_footer-button {
+}
+.button {
+}
+.PickAndFeed_footer-text {
+    display: flex;
+    align-items: flex-end;
+    height: 52px;
+    text-align:end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #333B41;
+    
+}
