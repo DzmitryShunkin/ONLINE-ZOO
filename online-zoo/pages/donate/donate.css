@@ -171,6 +171,7 @@ color: #333B41;
 }
 .PickAndFeed_main-input {
     height: 28px;
+    margin-bottom: 7px;
 }
 .PickAndFeed_main-money {
     height: 36px;
@@ -188,8 +189,38 @@ color: #333B41;
     width: 268px;
 
 }
+.PickAndFeed_footer-input input{
+    height:54px ;
+    width:268px ;
+}
 .PickAndFeed_footer-clicks {
     height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_radio {
+    margin-right: 76px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
+}
+.right_radio {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #333B41;
 }
 .PickAndFeed_footer-button {
 }

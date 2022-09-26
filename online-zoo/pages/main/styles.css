@@ -31,6 +31,13 @@ body{
     z-index:2 ;
    
 }
+.header_link:hover{
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: goldenrod;
+}
+
 .header_container {
     
     
@@ -46,6 +53,12 @@ body{
     margin: 15px 0px;
     justify-content: flex-end; 
   
+}
+.header_logo:hover{
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: aquamarine;
 }
 .PetOn{
     height: 52px;
@@ -66,6 +79,7 @@ body{
 .PetOn_logo{
     position: absolute;
 }
+
 .header_menu {
     display:flex;
     flex: 1 1 auto;
@@ -104,6 +118,13 @@ color: #FFFFFF;
 .menu_item {
     margin:0px 0px 0px 60px;
    
+}
+.menu_item:hover{
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: aquamarine;
+
 }
 .menu_link {
 font-family: 'Roboto';
@@ -209,6 +230,10 @@ color: #FFFFFF;
 }
 .button:hover{
     background-color: red;
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: aquamarine;
 }
 .button_red {
 }
@@ -349,11 +374,27 @@ color: #333B41;
     margin-top: 403px;
    
 }
+.right_arrow :hover{
+    text-decoration: underline;
+opacity: .75;
+transition-timing-function: linear;
+color: goldenrod;
+}
+
+
 .left_arrow {
     margin-left: 137px;
     margin-top: 403px;
     position: absolute;
 }
+.left_arrow :hover{
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: goldenrod;
+
+}
+
 .animals_button{
     margin-top: 956px;
     margin-left: 646px;
@@ -774,6 +815,12 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
+.pet_button_link:hover{
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: aquamarine;
+}
 .subscribeAndSubmit {
     display: flex;
     flex:0 0 31.5%;
@@ -809,6 +856,12 @@ color: #FFFFFF;
     height: 42px;
     width: 142px;
 
+}
+.itwo:hover{
+    text-decoration: underline;
+    opacity: .75;
+    transition-timing-function: linear;
+    color: aquamarine;
 }
 .footer_footer {
     height: 178px;
