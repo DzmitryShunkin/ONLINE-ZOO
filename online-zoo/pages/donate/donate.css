@@ -1,13 +1,59 @@
+@media(max-width:1000px){
+    [class*="_container"]{
+        max-width: 1000px; 
+        margin: 0px auto;
+        padding: 0px 0px;
+    }
 
-.panda {
+  }
+  @media(max-width:640px){
+    [class*="_container"]{
+        width: 640px; 
+        margin: 0px auto;
+        padding: 0px 0px;
+    }
+
+  }
+  @media(max-width:640px){
+    .Hamburger_line {
+        display: block;
+        background-color:white;
+        height: 2px;
+        width: 24px;
+        position:relative;
+        box-shadow: 0 6px 0 0 white, 0 12px 0 0 white;
+    }
 }
+@media(max-width:640px){
+    .Hamburger_line{
+        margin-left: 500px;
+    }
+}
+
 .panda_container {
     height: 386px;
+}
+@media(max-width:640px){
+    .panda_container {
+        height: 335px;
+        background-size: 170%;
+    }
 }
 
 .text_container {
     height: 339px;
     background:  linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+@media(max-width:1000px){
+    .text_container {
+        height: 385px;
+    }
+}
+@media(max-width:640px){
+    .text_container{
+        height: 369px;
+        width:640px;
+    }
 }
 .text {
     margin: 0px 220px 0px 220px;
@@ -15,10 +61,19 @@
     width: 1160px;
     
 }
-.text_items {
-    /* display: flex;
-    flex-wrap: wrap; */
+@media(max-width:1000px){
+    .text{
+        margin: 0px 30px 0px 30px;
    
+   
+    }
+}
+
+@media(max-width:640px){
+    .text{
+        margin: 0px 20px 0px 20px;
+
+    }
 }
 .text-title {
     display: flex;
@@ -30,11 +85,25 @@
     font-size: 36px;
     line-height: 130%;
     /* identical to box height, or 47px */
+   
     
+    color: #FFFFFF;  
+}
+
+@media(max-width:1000px){
+    .text-title {
+        width: 778px;
+        height: 134px;
     
-    color: #FFFFFF;
-    
-    
+    }
+}
+@media(max-width:640px){
+    .text-title{
+        font-size: 24px;
+line-height: 120%;
+width: 600px;
+height: 88px;
+    }
 }
 .text_main {
     height: 94px;
@@ -48,6 +117,20 @@
     
     
     color: #FFFFFF;
+}
+
+@media(max-width:1000px){
+    .text_main {
+    display: none;
+    }
+}
+@media(max-width:640px){
+    .text_main{
+        display: block;
+        width: 600px;
+        height: 154px;
+
+    }
 }
 .Donation_info {
     display: flex;
@@ -67,9 +150,34 @@ color: #FE9013;
 
 }
 
+@media(max-width:1000px){
+    .Donation_info {
+        margin-top: 164px;
+    height: auto;
+    }
+}
+@media(max-width:640px){
+    .Donation_info{
+        height: 47px;
+        position: relative;
+        bottom: 110px;
+    }
+}
+
 
 .PickAndFeed_container {
-    height: 1144px; ;
+    height: 1144px; 
+}
+@media(max-width:1000px){
+    .PickAndFeed_container{
+height: 948px;
+    }
+}
+@media(max-width:640px){
+    .PickAndFeed_container{
+        height: 964px;
+        width: 640px;
+    }
 }
 .PickAndFeedd {
     height: 964px;
@@ -78,6 +186,27 @@ color: #FE9013;
     width: 1160px;
     margin-left: 220px;
     margin-right: 222px;
+}
+
+@media(max-width:1000px){
+    .PickAndFeedd{
+        height: 918px;
+        background-color: rgba(253, 253, 255, 0.52);
+    
+        width: 940px;
+        margin-left: 30px;
+        margin-right: 30px;
+    
+   
+    }
+}
+@media(max-width:640px){
+    .PickAndFeedd{
+
+        width: 600px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 .PickAndFeed_header {
@@ -125,6 +254,15 @@ line-height: 120%;
 
 color: #333B41;
 }
+@media(max-width:640px){
+    .PickAndFeed_header-text{
+        padding-left: 45px;
+        height: 58px;
+        margin:0px auto ;
+       
+        text-align: center;
+    }
+}
 .PickAndFeed_header-photo {
     display: flex;
     justify-content: space-between;
@@ -165,6 +303,13 @@ color: #333B41;
  margin-top: 48px;
     
 }
+@media(max-width:640px){
+    .PickAndFeedd_main {
+        margin-left: 0px; 
+ margin-top: 48px;
+    }
+
+}
 
 .PickAndFeed_main-Amount {
     height: 32px;
@@ -173,9 +318,39 @@ color: #333B41;
     height: 28px;
     margin-bottom: 7px;
 }
+
+@media(max-width:1000px){
+    .PickAndFeed_main-input img{
+        width: 83%;
+
+    }
+}
+@media(max-width:640px){
+    .PickAndFeed_main-input img{
+        width: 167%;
+    }
+    .PickAndFeed_main-input{
+        overflow: hidden;
+    }
+}
+
 .PickAndFeed_main-money {
     height: 36px;
 }
+@media(max-width:1000px){
+    .PickAndFeed_main-money img{
+        width: 83%;
+
+    }
+}
+@media(max-width:640px){
+    .PickAndFeed_main-money img{
+        width: 170%;
+        position: relative;
+        right:390px ;
+    }
+}
+
 
 .PickAndFeed_footer {
     width: 301px;
@@ -222,10 +397,8 @@ line-height: 140%;
 
 color: #333B41;
 }
-.PickAndFeed_footer-button {
-}
-.button {
-}
+
+
 .PickAndFeed_footer-text {
     display: flex;
     align-items: flex-end;
@@ -242,3 +415,74 @@ color: #333B41;
     color: #333B41;
     
 }
+/* ----footer donate------- */
+
+@media(max-width:640px){
+    .footer_container{
+        position: relative;
+        top: 964px;
+    }
+}
+
+
+
+
+
+@media(max-width:640px){
+    .footer_Rss-wrapper{
+        flex: 0 0 30%;
+    }}
+    @media(max-width:640px){
+        .footer_menu_list{
+            width: 380px;
+        }
+    }
+    @media(max-width:640px){
+        .footer_nav {
+            flex: 0 0 40.5%;
+          
+        }
+    }
+    @media(max-width:640px){
+        .footer_logo{
+            position: absolute;
+            /* width: 100px; */
+            left: 633px;
+            bottom: 93px;
+            row-gap: 20px;
+        }
+    }
+    @media(max-width:640px){
+        .footer_footer{
+            position: relative;
+            display:flex ;
+            bottom: 125px;
+            right: 70px;
+            width: 890px;
+        }
+    }
+    @media(max-width:640px){
+        .subscribeAndSubmit{
+            display: none;
+        }
+    
+    }
+    @media(max-width:640px){
+        .pet_logo{
+            height: 87px;
+        }
+    }
+    @media(max-width:640px){
+        .petAndDonate{
+            position: relative;
+            bottom: 25px;
+            right: 20px;
+        }
+    }
+    @media(max-width:640px){
+        .footer_container{
+            height: 285px; 
+            width: 640px;
+        }
+    
+    }

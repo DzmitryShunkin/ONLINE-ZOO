@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="/dzmitryshunkin-JSFE2022Q3/online-zoo/pages/main/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <style>li{list-style-type: none;}</style>
+    <!-- <meta name="viewport" content="width=1600"> -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
 </head>
 <body>
     <div class="wrapper">
+
+
+<!-- ------------header----------- -->
+
+
+
         <header class="header">
             <div class="header_container">
                 <a href="/dzmitryshunkin-JSFE2022Q3/online-zoo/pages/main/index.html" class="header_logo">
@@ -20,8 +28,10 @@
                 </a>
                 <div class="header_menu menu">
                     <nav class="menu_body">
+                        <input type="checkbox" id="checkbox_toggle">
+                        <label for="checkbox_toggle" class="Hamburger"><span class="Hamburger_line"></span></label>
                         <ul class="menu_list">
-                            <li class="menu_item">
+                            <li class="menu_item menu_item">
                                 <a href="" class="menu_link">
                                     <p class="about">About</p> </a>
                                         
@@ -45,8 +55,15 @@
                 <div class="header_link">
                     <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1" class="link_header">Designed by ©</a>
                 </div>
+               
             </div>
         </header>
+       
+
+        <!-- ------panda-- -->
+
+
+
         <main class="main">
               <section class="panda">
                 <div class="panda_container">
@@ -65,6 +82,17 @@
                     </div>
                 </div>
               </section>
+              <div class="panda_button-320 ">
+                <a href="" class="button_red button">WATH ONLINE</a>
+            </div>
+
+
+
+
+  <!-- kitaec ------------>
+
+
+
 <section class="kitaec_container">
     <div class="flower"> <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/icons/icons_main/section 1/flower_foto1.png" alt=""></div>
     <div class="kitaec_content">
@@ -91,7 +119,7 @@
     </div>
 </section>
 
-<!-- ---------------------------------------------- -->
+<!-- ---------------animals------------------------------- -->
 
 
 <section class="animals_container">
@@ -129,37 +157,37 @@
             </a>
           
         </div>
-        <div class="animals-item">
-            <div class="foto-card">
+        <div class="animals-item animals_orel">
+            <div class="foto-card foto-card_orel">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/icons/icons_main/section 3/photo_cards/foto-card2.svg" alt="">
             </div> <a href="https://www.youtube.com/">
                 <img class="animal_foto"src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section3_Animals/Rectangle 1.2.jpg" alt="" class="">
             </a>
           
         </div>
-        <div class="animals-item">
-            <div class="foto-card">
+        <div class="animals-item animals-item-monkey">
+            <div class="foto-card  foto-card_monkey">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/icons/icons_main/section 3/photo_cards/foto-card3.svg" alt="">
             </div>
             <img class="animal_foto"src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section3_Animals/Rectangle 1.3.jpg" alt="" class="">
           
         </div>
-        <div class="animals-item">
+        <div class="animals-item animals-item-second">
             <div class="foto-card">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/icons/icons_main/section 3/photo_cards/foto-card5.svg" alt="">
             </div>
             <img class="animal_foto"src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section3_Animals/Rectangle 1.4.jpg" alt="" class="">
           
         </div>
-        <div class="animals-item">
-            <div class="foto-card">
+        <div class="animals-item animals-item-second">
+            <div class="foto-card foto-card_monkey_leopard">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/icons/icons_main/section 3/photo_cards/foto-card6.svg" alt="">
             </div>
             <img class="animal_foto"src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section3_Animals/Rectangle 1.5.jpg" alt="" class="">
           
         </div>
-        <div class="animals-item">
-            <div class="foto-card">
+        <div class="animals-item animals-item-second animals-item-pingvin">
+            <div class="foto-card foto-card_pingvin">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/icons/icons_main/section 3/photo_cards/foto-card7.svg" alt="">
             </div>
             <img class="animal_foto"src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section3_Animals/Rectangle 1.6.jpg" alt="" class="">
@@ -176,7 +204,7 @@
 
 
 
-<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 -->
+<!-----------------------PickAndFeed--------------------- -->
 
 
 
@@ -185,6 +213,7 @@
 
 
 </section>
+
 <section class="PickAndFeed_container">
     <div class="PickAndFeed-empty_container"></div>
     <div class="PickAndFeed">
@@ -196,6 +225,7 @@
                 <div class="main_text2">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider a gift to our <a style="  text-decoration: underline;
                     text-decoration-color: #c36841;" href="/dzmitryshunkin-JSFE2022Q3/online-zoo/pages/donate/donate.html">Emergency Support Fund .</a>  </div>
             </div>
+            
             <div class="wrapper-PickAndFeed_item-content">
                 <div class="PickAndFeed_item-content">
                     <h1 class="item_content-title">How it works</h1>
@@ -215,14 +245,40 @@
         </div>
     </div>
 </section>
+<div class="block_blue_arrow">
+    <div class="blue_arrowOne">
+        <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/peekAndfeed1000/arrow.svg" alt="">
+    </div>
+    <div class="blue_arrowTwo">
+        <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/peekAndfeed1000/arrow.svg" alt="">
+    </div>
+</div>
+
+
+
+<!-- -------------Testimonials----------------- -->
+
+
+
+
 <section class="Testimonials_container">
     <div class="Testimonials">
         <div class="Testimonials_empty"></div>
         <div class="Testimonials_items">
             <h1 class="Testimonials_title">Testimonials</h1>
             <div class="Testimonials_photos">
+                <div class="Testimonials_photos-320">
+                    <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/testimonials 320/testimonials.svg" alt="">
+                    <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/testimonials 320/testimonials (1).svg" alt="">
+                    <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/testimonials 320/testimonials (2).svg" alt="">
+                </div>
+                <div class="Testimonials_photos-640">
+                    <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/testimonials 640/testimonials.svg" alt="">
+                    <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/testimonials 640/testimonials (1).svg" alt="">
+                    <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/media/icons/testimonials 640/testimonials (2).svg" alt="">
+                </div>
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section4_Testomonials/testimonials.svg" alt="">
-                <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section4_Testomonials/online-zoo-3-weeks (Copy)/testimonials.svg" alt="">
+                <img class="two_photo" src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section4_Testomonials/online-zoo-3-weeks (Copy)/testimonials.svg" alt="">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section4_Testomonials/online-zoo-3-weeks (Copy)/testimonials-1.svg" alt="">
                 <img src="/dzmitryshunkin-JSFE2022Q3/online-zoo/assets/images/section4_Testomonials/online-zoo-3-weeks (Copy)/testimonials-2.svg" alt="">
             </div>
@@ -236,6 +292,10 @@
         </div>
         
     </div>
+
+
+    <!-- --------footer---------- -->
+
     
 </section>
         </main>
